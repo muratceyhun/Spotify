@@ -32,6 +32,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .spotifyBlack
+        menuBar.delegate = self
         
         layout()
     }
@@ -75,4 +76,24 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: collectionView.frame.height)
     }
+    
+    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+//        let index = targetContentOffset.pointee.x / view.frame.width
+//        menuBar.selectItem(at: Int(index))
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        menuBar.scrollIndicator(to: scrollView.contentOffset)
+    }
+}
+
+
+
+extension HomeViewController: MenuBarDelegate {
+    func didSelectItemAt(index: Int) {
+        let indexPath = IndexPath(item: index, section: 0)
+        collectionView.scrollToItem(at: indexPath, at: [], animated: true)
+    }
+    
+    
 }
