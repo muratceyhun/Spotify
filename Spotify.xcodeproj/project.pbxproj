@@ -15,6 +15,7 @@
 		43716CC929C52156007CEF97 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43716CC829C52156007CEF97 /* Factories.swift */; };
 		43DE188729C5DB5800B83D33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DE188629C5DB5800B83D33 /* HomeViewController.swift */; };
 		43DE188929C5DCC900B83D33 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DE188829C5DCC900B83D33 /* MenuBar.swift */; };
+		43DE188B29C5F1AD00B83D33 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DE188A29C5F1AD00B83D33 /* PlaylistCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		43716CC829C52156007CEF97 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 		43DE188629C5DB5800B83D33 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		43DE188829C5DCC900B83D33 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		43DE188A29C5F1AD00B83D33 /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				43716CC829C52156007CEF97 /* Factories.swift */,
 				43DE188629C5DB5800B83D33 /* HomeViewController.swift */,
 				43DE188829C5DCC900B83D33 /* MenuBar.swift */,
+				43DE188A29C5F1AD00B83D33 /* PlaylistCell.swift */,
 			);
 			path = Spotify;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43DE188729C5DB5800B83D33 /* HomeViewController.swift in Sources */,
+				43DE188B29C5F1AD00B83D33 /* PlaylistCell.swift in Sources */,
 				4323D20D29C4FA4800EB5769 /* TitleBarController.swift in Sources */,
 				43DE188929C5DCC900B83D33 /* MenuBar.swift in Sources */,
 				43716CC729C515AD007CEF97 /* Container.swift in Sources */,
