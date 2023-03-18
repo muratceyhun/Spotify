@@ -13,6 +13,8 @@
 		4323D21529C4FA4900EB5769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4323D21329C4FA4900EB5769 /* LaunchScreen.storyboard */; };
 		43716CC729C515AD007CEF97 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43716CC629C515AD007CEF97 /* Container.swift */; };
 		43716CC929C52156007CEF97 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43716CC829C52156007CEF97 /* Factories.swift */; };
+		43DE188729C5DB5800B83D33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DE188629C5DB5800B83D33 /* HomeViewController.swift */; };
+		43DE188929C5DCC900B83D33 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DE188829C5DCC900B83D33 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4323D21629C4FA4900EB5769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43716CC629C515AD007CEF97 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		43716CC829C52156007CEF97 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+		43DE188629C5DB5800B83D33 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		43DE188829C5DCC900B83D33 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				4323D20C29C4FA4800EB5769 /* TitleBarController.swift */,
 				43716CC629C515AD007CEF97 /* Container.swift */,
 				43716CC829C52156007CEF97 /* Factories.swift */,
+				43DE188629C5DB5800B83D33 /* HomeViewController.swift */,
+				43DE188829C5DCC900B83D33 /* MenuBar.swift */,
 			);
 			path = Spotify;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DE188729C5DB5800B83D33 /* HomeViewController.swift in Sources */,
 				4323D20D29C4FA4800EB5769 /* TitleBarController.swift in Sources */,
+				43DE188929C5DCC900B83D33 /* MenuBar.swift in Sources */,
 				43716CC729C515AD007CEF97 /* Container.swift in Sources */,
 				43716CC929C52156007CEF97 /* Factories.swift in Sources */,
 				4323D20929C4FA4800EB5769 /* AppDelegate.swift in Sources */,
